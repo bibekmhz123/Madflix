@@ -1,0 +1,200 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+	
+	
+}
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/1.jpg);
+	height: 70%;
+	background-position:center;
+	
+}
+ul{
+	float:right;
+	list-style-type:none;
+	margin-top:25px;
+}
+ul li{
+	display:inline-block;
+	
+}
+ul li a{
+	text-decoration:none;
+	color:white;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	
+	transition: 0.6s ease;
+}
+ul li a:hover{
+	background-color: red;
+	color:white;
+	
+}
+
+ul li.active a{
+	background-color: red;
+	color:white;
+	
+}
+
+.logo img{
+	float: left;
+	
+	
+}
+
+.main{
+	max-width:1200px;
+	margin:auto;
+	
+}
+
+.title{
+	position: absolute;
+	left:50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+	
+}
+
+.title h1{
+	color: white;
+	font-size:70px;
+	
+}
+.watch{
+	
+	position: absolute;
+	left:50%;
+	top:57%;
+	transform: translate(-50%,-50%);
+	
+	
+}
+
+.watch p{
+	
+	color: white;
+	font-size:25px;
+}
+
+.button{
+	position: absolute;
+	left:50%;
+	top:64%;
+	transform: translate(-50%,-50%);
+	
+}
+
+.btn{
+	border:1px solid white;
+	background-color:red;
+	padding: 10px 40px;
+	font-size:30px;
+	color: white;
+	text-decoration:none;
+	transition: 0.6s ease;
+	
+}
+
+.btn:hover{
+	
+	background-color: white;
+	color:red;
+}
+.device{
+	position: absolute;
+	left:25%;
+	bottom:%;
+	
+	top:82%;
+	margin:30px;
+	
+	
+	transform: translate(-50%,-50%);
+	
+	
+	
+}
+.tv{
+	color:white;
+	text-align:center;
+	position: absolute;
+	top: -157;
+	left: -185px;
+}
+.tv img{
+	height: 210px;
+	width: 315px;
+}
+.tv p{
+	width:300px;
+	
+}
+.black{
+	position:absolute;
+	height: 344px;
+	width:100%;
+	top: 69%;
+	background-color:black;
+}
+.device1{
+	position: absolute;
+	left: 49%;
+	bottom: -11%;
+	wid
+	
+	top:82%;
+	margin:30px;
+	transform: translate(-50%,-50%);
+}
+.mobile{
+	color:white;
+	text-align:center;
+	width
+}
+.mobile img{
+	height: 210px;
+	width: 352px;
+}
+
+.device2{
+	position: absolute;
+	left: 1414px;
+	bottom: -11%;
+	wid
+	
+	top:82%;
+	margin:30px;
+	transform: translate(-50%,-50%);
+}
+.laptop{
+	color: white;
+	text-align:center;
+	position: relative;
+	bottom: 8px;
+	
+}
+.laptop img{
+	height: 205px;
+	width: 354px;
+}
+
+
+.slide{
+	height: 80%;
+	width:100%;
+	background-position:center;
+	overflow: hidden;
+	border:5px solid black;
+}
+.slideshow{
+	display:flex;
+	
+	
+	
+	
+}
